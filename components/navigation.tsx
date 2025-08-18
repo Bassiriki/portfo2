@@ -52,7 +52,7 @@ export function Navigation() {
               <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-orange-500 to-emerald-600 bg-clip-text text-transparent">
                 Onphilosophe
                       </h1>
-                      <p className="text-sm text-gray-600 font-medium">Philosophe & Créateur de contenu</p>
+                      <p className="text-sm text-gray-600 font-medium">Enseignant, créateur de contenu et conseiller en relation amoureuse</p>
             </div>
           </div>
 

@@ -1,56 +1,31 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { BookOpen, Users, Heart, Briefcase, Video, MapPin } from "lucide-react"
+import { BookOpen, Users, Heart, Briefcase, Video, MapPin  } from "lucide-react"
 
 export function Services() {
   const services = [
     {
       icon: BookOpen,
       title: "Cours de Philosophie",
-      description: "Cours privés de philosophie adaptés à tous niveaux, en ligne et en présentiel",
-      features: [
-        "Préparation au baccalauréat",
-        "Approfondissement conceptuel",
-        "Méthodologie dissertation",
-        "Suivi personnalisé",
-      ],
-      
+      description: "en ligne , présentiel et à domicile",
+       
     },
     {
       icon: Users,
-      title: "Culture Générale",
-      description: "Formation complète pour la préparation aux concours administratifs et grandes écoles",
-      features: ["Concours fonction publique", "Grandes écoles", "Méthodes efficaces", "Supports pédagogiques"],
-       
+      title: " Cours de culture générale",
+      description: "Pour les candidats aux différents concours",
+        
     },
     {
       icon: Heart,
       title: "Conseil en Relations Amoureuses",
-      description: "Accompagnement personnalisé et création de contenu pour améliorer vos relations amoureuses",
-      features: [
-        "Analyse de situation personnelle",
-        "Stratégies relationnelles efficaces",
-        "Communication de couple",
-        "Développement personnel",
-        "Contenu éducatif sur les relations",
-        "Conseils pratiques et concrets",
-      ],
-      
+       
     },
     {
-      icon: Video,
-      title: "Création de Contenu",
-      description: "Services de création de contenu éducatif et de communication digitale",
-      features: ["Contenu philosophique", "Marketing digital", "Formation communication", "Stratégie éditoriale"],
-      price: "Sur devis",
-    },
-    {
-      icon: Briefcase,
-      title: "Partenariats",
-      description: "Collaborations pour projets de sensibilisation et campagnes publicitaires",
-      features: ["Campagnes éducatives", "Sensibilisation sociale", "Collaborations médias", "Projets culturels"],
-      price: "Sur mesure",
-    },
+      icon: BookOpen,
+      title: "Vente de livres ",
+      },
+    
   ]
 
   return (
@@ -79,16 +54,8 @@ export function Services() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-slate-600 text-center leading-relaxed">{service.description}</p>
-                <ul className="space-y-2">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-sm text-slate-600">
-                      <div className="w-2 h-2 bg-emerald-500 rounded-full mr-3 flex-shrink-0"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
                 <div className="pt-4 border-t border-emerald-100">
-                  <p className="text-lg font-semibold text-emerald-600 text-center mb-4">{service.price}</p>
+                  <p className="text-lg font-semibold text-emerald-600 text-center mb-4"> </p>
                   <Button
                     className="w-full bg-transparent border-emerald-500 text-emerald-600 hover:bg-emerald-500 hover:text-white"
                     variant="outline"

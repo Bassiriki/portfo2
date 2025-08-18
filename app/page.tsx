@@ -5,6 +5,7 @@ import { Books } from "@/components/books"
 import { Contact } from "@/components/contact"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { Reservations } from "@/components/reservations"
 
 export default function Home() {
   return (
@@ -14,8 +15,11 @@ export default function Home() {
       <About />
       <Services />
       <Books />
+      <Reservations />
       <Contact />
+    
       <Footer />
+      
     </main>
   )
 }
