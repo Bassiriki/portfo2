@@ -25,6 +25,11 @@ export function Services() {
       icon: BookOpen,
       title: "Vente de livres ",
       },
+      {
+        icon: Briefcase,
+        title: "Partenariat",
+        
+      }
     
   ]
 
